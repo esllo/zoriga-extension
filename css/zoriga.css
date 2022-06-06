@@ -1,0 +1,29 @@
+.zoriga-float-button {
+  transition: all 0.2s;
+  font-family: "Roboto";
+  position: fixed;
+  width: 36px;
+  height: 36px;
+  right: 16px;
+  bottom: 16px;
+  background-image: var(--img);
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 24px;
+  border: 1px solid #539bf5;
+  font-weight: lighter;
+  border-radius: 18px;
+  user-select: none;
+  color: transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 0px;
+}
+
+.zoriga-float-button:hover {
+  width: 96px;
+  background: #2b86f5;
+  font-size: 13px;
+  color: white;
+  border-bottom: 2px solid #539bf5;
+}
